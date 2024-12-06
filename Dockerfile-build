@@ -1,0 +1,12 @@
+# Use the Alpine base image as the basis for the container
+FROM alpine 
+
+# Set the working directory for Docker to run the commands that follow
+WORKDIR /opt
+
+# When the container is run, Docker will concatenate the following list of strings with a space between each string and execute the resulting command string: 
+# cat header.txt file-list.txt footer.txt
+CMD ["cat", "header.txt", "file-list.txt", "footer.txt"] 
+
+# Copy the project text files into the Docker image working directory
+COPY *.txt ./

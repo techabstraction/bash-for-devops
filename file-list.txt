@@ -1,0 +1,9 @@
+    --> 0-reset-tutorial.sh
+    --> 1-what-went-wrong.sh
+    --> 2-execution-trace.sh
+    --> 3-error-exit.sh
+    --> 4-we-can-build-it.sh
+    --> 5-no-unset.sh
+    --> 6-generate-file-list.sh
+    --> 7-pipe-fail.sh
+    --> 8-all-the-things.sh
